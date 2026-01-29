@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunnyside</title>
+<link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="font-sans">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+<header class="bg-sky-400 text-white relative">
+<body class="bg-gray-100">
+
+<nav class="bg-sky-400 p-5">
+  <div class="max-w-7xl mx-auto flex justify-between items-center text-white">
+   <h1 class="text-xl font-bold">sunnyside</h1>
+
+      <ul class="hidden md:flex space-x-8 items-center">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Projects</a></li>
+      <li>
+      <a href="#" class="bg-white text-black px-5 py-2 rounded-full">CONTACTS</a>
+      </li>
+      </ul>
+
+      <button id="menuBtn" class="md:hidden focus:outline-none">
+         <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2"viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+         </svg>
+      </button>
+  </div>
+
+  <div id="mobileMenu" class="hidden md:hidden bg-white text-center mt-4 mx-6 rounded-lg shadow-lg">
+    <a class="block py-4 text-gray-700">About</a>
+    <a class="block py-4 text-gray-700">Services</a>
+    <a class="block py-4 text-gray-700">Projects</a>
+    <a class="block py-4 font-bold bg-yellow-300 rounded-b-lg">CONTACTS</a>
+  </div>
+</nav>
+
+   <div class="h-screen bg-cover bg-center" style="background-image: url('./images/desktop/image-header.jpg');">
+
+    <div class="flex flex-col justify-center items-center pt-48">
+     <h2 class="text-4xl md:text-6xl font-bold tracking-widest mb-6">
+      WE ARE CREATIVES
+     </h2>
+     <img  src="/images/icon-arrow-down.svg" alt="arrow"> 
+    </div>
+    </div>
+   </div>
+ </div>
+</header>
+  
+    
+<section class="grid md:grid-cols-2">
+
+  <div class="p-16 flex flex-col justify-center">
+    <h2 class="text-3xl font-bold mb-4">Transform your brand</h2>
+    <p class="text-gray-600 text-xl mb-6">
+      We are a full-service creative agency specializing in helping brands grow fast.
+      Engage your clients through compelling visuals that do most of the marketing for you.
+    </p>
+    <a class="font-bold border-b-4 border-yellow-400 w-fit">LEARN MORE</a>
+  </div>
+
+  <img src="./images/desktop/image-transform.jpg" class="w-full h-full object-cover">  
+</section>
+
+<section class="grid md:grid-cols-2">
+  <img src="./images/desktop/image-stand-out.jpg" class="w-full h-full object-cover">
+
+  <div class="p-16 flex flex-col justify-center">
+    <h2 class="text-3xl font-bold mb-4">Stand out to the right audience</h2>
+    <p class="text-gray-600 text-xl mb-6">
+      Using a collaborative formula of designers, researchers, photographers, videographers,
+      and copywriters, we'll build and extend your brand in digital places.
+    </p>
+    <a class="font-bold border-b-4 border-red-400 w-fit">LEARN MORE</a>
+  </div>
+</section>
+
+
+<section class="grid md:grid-cols-2">
+  <div class="relative">
+    <img src="./images/desktop/image-graphic-design.jpg" class="w-full h-full object-cover">
+    <div class="absolute bottom-10 text-center w-full text-emerald-900">
+      <h3 class="font-bold text-xl">Graphic Design</h3>
+      <p class="px-10 text-xl text-center">Great design makes you memorable.We deliver artwork that underscores
+         your brand message and captures potential clients attention.</p>
+    </div>
+  </div>
+
+  <div class="relative">
+    <img src="./images/desktop/image-photography.jpg" class="w-full h-full object-cover">
+    <div class="absolute bottom-10 text-center w-full text-blue-900">
+      <h3 class="font-bold text-xl">Photography</h3>
+      <p class=" px-10 text-xl text-center">Increase your credibility by getting the most stunning,
+         high-quality photos that improve your bussiness image.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-gray-50 py-20 text-center">
+  <h2 class=" text-gray-400 mb-12">CLIENT TESTIMONIALS</h2>
+
+  <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto px-6">
+    <div>
+      <img class="w-16 h-16 rounded-full mx-auto mb-4" src="./images/image-emily.jpg">
+      <p class="mb-3 text-gray-600">
+        We put our trust in Sunnyside and they delivered, making sure our needs were 
+        met and deadlines were always hits.
+      </p>
+      <h4 class="font-bold">Emily R.</h4>
+      <P class="text-gray-400 p-2">Marketing Director</P>
+    </div>
+
+    <div>
+      <img class="w-16 h-16 rounded-full mx-auto mb-4" src="./images/image-thomas.jpg">
+      <p class="mb-3 text-gray-600">
+        Sunnysides enthusiasm coupled with their keen interest in
+        our brand's success made it a satisfying and enjoyable experience.
+      </p>
+      <h4 class="font-bold">Thomas S.</h4>
+      <p class="text-gray-400 p-2">Chief Operating Officer</p>
+    </div>
+
+    <div>
+      <img class="w-16 h-16 rounded-full mx-auto mb-4"
+           src="./images/image-jennie.jpg">
+      <p class="mb-4 text-gray-600">
+       Incredible end resulr! Our sales increased over 400% when we worked
+       with Sunnyside.Highly recommended.
+      </p>
+      <h4 class="font-bold">Jennie F.</h4>
+      <p class="text-gray-400 p-2">Bussiness Owner</p>
+    </div>
+  </div>
+</section>
+
+<section class="grid grid-cols-2 md:grid-cols-4">
+  <img src="./images/desktop/image-gallery-milkbottles.jpg" class="w-full h-full object-cover">
+  <img src="/images/desktop/image-gallery-orange.jpg" class="w-full h-full object-cover">
+  <img src="/images/desktop/image-gallery-cone.jpg" class="w-full h-full object-cover">
+  <img src="/images/desktop/image-gallery-sugarcubes.jpg" class="w-full h-full object-cover">
+</section>
+
+<footer class="bg-emerald-300 text-center py-12">
+  <h2 class="text-2xl text-gray-400 font-bold mb-4">sunnyside</h2>
+  <div class=" text-gray-500 space-x-6">
+    <a>About</a><a>Services</a><a>Projects</a> </div>
+
+    <div class="flex flex-row space-x-6 justify-center p-10">
+    <img src="/images/icon-facebook.svg" alt="icon-facebook">
+    <img src="/images/icon-instagram.svg" alt="icon-instagram">
+    <img src="/images/icon-twitter.svg" alt="icon-twitter">
+    <img src="/images/icon-pinterest.svg" alt="icon-pinterest">
+  </div> 
+ </footer>
+</body>
+</html>
+
